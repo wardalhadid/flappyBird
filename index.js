@@ -103,7 +103,7 @@ class Pipe {
     this.image2 = new Image();
     this.image2.src = "./assets/gameObjects/pipe-green2.png";
     this.width = 52;
-    this.height = Math.random() * 500 + 80;
+    this.height = Math.max(Math.random() * 500 + 80, CANVAS_HEIGHT * 0.6);
     this.x = CANVAS_WIDTH;
     this.gap = Math.random() * 80 + birdJump + 20;
     this.y1 = CANVAS_HEIGHT - BASE_HEIGHT - this.height;
