@@ -42,6 +42,11 @@ class Base {
      ctx.drawImage(this.image, this.x + this.width * 4, this.y, this.width, this.height);
      ctx.drawImage(this.image, this.x + this.width * 5, this.y, this.width, this.height);
      ctx.drawImage(this.image, this.x + this.width * 6, this.y, this.width, this.height);
+     ctx.drawImage(this.image, this.x + this.width * 7, this.y, this.width, this.height);
+     ctx.drawImage(this.image, this.x + this.width * 8, this.y, this.width, this.height);
+     ctx.drawImage(this.image, this.x + this.width * 9, this.y, this.width, this.height);
+     ctx.drawImage(this.image, this.x + this.width * 10, this.y, this.width, this.height);
+
 
 
   }
